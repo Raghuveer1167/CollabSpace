@@ -27,29 +27,6 @@ npm install
 npm run dev
 ```
 
-# Environment Variables
-
-## Frontend
-
-```
-VITE_SERVER_ENDPOINT = https://thinkify-server.vercel.app:3000/api
-VITE_TOKEN_KEY = thinkify
-VITE_USER_ROLE = role
-VITE_COOKIE_EXPIRES = 1
-```
-
-## Backend
-
-```
-PORT = 3000
-DATABASE_URL = mongodb://localhost:27017/
-DATABASE_NAME = thinkify
-BCRYPT_GEN_SALT_NUMBER = 10
-JWT_SECRET_KEY = abcdefghijklmnopqrstuvwxyz
-COOKIE_EXPIRES = 5d
-COOKIE_KEY = thinkify
-UPLOAD_DIRECTORY = uploads
-```
 
 # Features
 
@@ -73,7 +50,6 @@ UPLOAD_DIRECTORY = uploads
   - Change Password
 - Sign Out
 
-# Contribute
 ## Institution/Teacher
 - post(text, image)
     - by admin/institution
@@ -82,36 +58,5 @@ UPLOAD_DIRECTORY = uploads
 - poll
 - resource sharing
 - test
-### Design Idea
-|----------------------------------------------------------------
-|   Institution   |                                |  Analytics |
-|-----------------|                                |------------|
-|                 |          ----------            |  Teachers  |
-|-----------------|          | Create |            |  Students  |
-|                 |          ----------            |  Courses   |
-|-----------------|                                |    Posts   |
-|                 |                                |    ....    |
-|-----------------|--------------------------------|------------|
-### Assignments
-- title
-- description
-- subject
-- deadline
-- total marks
-- status
-- audience
-### Polls
-- title
-- description
-- type(singl, multiple)
-- options
-- deadline
-- status
-- anonymous member
-- audience
-### Resource
-- title
-- description
-- visibility
-- url
-- audience
+
+
