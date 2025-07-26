@@ -14,7 +14,7 @@ Thinkify is a vibrant space where people from diverse backgrounds and interests 
 # How to Run
 
 ```
-git clone https://github.com/Raghuveer1167/CollabSpace.git
+git clone https://github.com/Raghuveer1167/CollabSpace.git](https://github.com/Raghuveer1167/Thinkify-CollabSpace.git
 
 # BACKEND
 cd server
